@@ -37,7 +37,7 @@ Usage:
 [2] https://github.com/Rykian/clockwork
 [3] https://adam.herokuapp.com/past/2010/6/30/replace_cron_with_clockwork/
 """
-from collections import Hashable
+from collections.abc import Hashable
 import datetime
 import functools
 import logging
